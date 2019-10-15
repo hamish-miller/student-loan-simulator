@@ -10,7 +10,7 @@ No guarantees are made about the correctness of the simulation - the results
 output do not consitute financial advice.
 
 
-## Installation
+## Installation
 
 Clone the repo:
 ```
