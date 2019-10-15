@@ -51,7 +51,7 @@ Output is placed in the `results` directory provided with the repo.
 | `graph.png`       | Graphical output of the result of the simulation.       |
 | `metadata.json`   | Additional metadata for simulation run.                 |
 | `results.json`    | Raw output of the simulation.                           |
-| `settings.ini`    | Copy of the config used to initiate the simulaton.      |
+| `settings.ini`    | Copy of the config used to initiate the simulation.     |
 
 *Note:* Subsequent simulation runs will overwrite existing files in `results`.
 
