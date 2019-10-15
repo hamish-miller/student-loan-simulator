@@ -6,7 +6,7 @@ student loan in the UK.
 The intention is to provide information about the benefits/drawbacks of making
 additional repayments towards the student loan, above the minimum repayment.
 
-No guarantees are made about the correctness of the simulation; the results
+No guarantees are made about the correctness of the simulation - the results
 output do not consitute financial advice.
 
 
