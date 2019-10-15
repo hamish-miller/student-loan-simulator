@@ -12,6 +12,11 @@ output do not consitute financial advice.
 
 ## Installation
 
+Clone the repo:
+```
+git clone https://github.com/hamish-miller/student-loan-simulator.git
+```
+
 From the root of the repo, run:
 ```
 pip install .
