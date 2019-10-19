@@ -17,13 +17,14 @@ def main():
 
     salary = config.getint("required", "salary")
     initial_balance = config.getint("required", "initial_balance")
+    max_monthly_repayments = config.getint("required", "max_monthly_repayments")
 
     student_loan = StudentLoan(initial_balance, salary)
 
     repayments = simulate(student_loan)
     analysis = analyse_repayments(repayments)
 
-    figure = make_plot(salary, initial_balance, repayments)
+    figure = make_plot(salary, initial_balance, max_monthly_repayments, repayments)
 
     save_config(config, OUTPUT_DIR)
     save_results(repayments, analysis, OUTPUT_DIR)

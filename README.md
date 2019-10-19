@@ -31,9 +31,12 @@ Fill in the following values in the config:
 [required]
 salary = {int}
 initial_balance = {int}
+max_monthly_repayments = {int}
 ```
 
-where `salary` is in (£/yr) and `initial_balance` is in (£).
+where `salary` is in (£/yr), `initial_balance` is in (£) and `max_monthly_repayments` is in (£).
+
+`max_monthly_repayments` is only used to trim the produced graph to the specified value (to allow for "zooming" into the graph)
 
 Then, simply run via:
 ```
